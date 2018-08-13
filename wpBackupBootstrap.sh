@@ -35,7 +35,7 @@ find . -name "*sh" -exec chmod 700 {} \;
 
 
 
-cd ./install/bootstraps/mysql/
+cd ./install/
 ./mySQLBootstrap.sh
 
 cd $installDir
