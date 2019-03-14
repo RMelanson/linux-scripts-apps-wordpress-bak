@@ -1,1 +1,4 @@
+#!/bin/bash
 
+# WP BACKUP CONFIGURATION PARAMETERS
+pkg=wpbak
