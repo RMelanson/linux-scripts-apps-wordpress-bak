@@ -13,7 +13,10 @@ fi
 yum install git -y
 
 # SETUP ENVIRONMENT AND PARAMETERS
-. ./env/setEnv.sh
+wpCurrDir=$PWD
+pkg=WP_BAK
+gitRepo="linux-scripts-apps-wp-backuprestore.git"
+installDir="/tmp/utils/$pkg"
 
 if [ -f ~/.ssh/gitHub.key ]; then
    clone="git clone git@github.com:jasonantao/"
