@@ -2,5 +2,7 @@
 
 # WP BACKUP CONFIGURATION PARAMETERS
 pkg=WP_BAK
+bootstrap="wpBackupBootstrap.sh"
+
 gitRepo="linux-scripts-apps-wp-backuprestore.git"
 installDir="/tmp/utils/$pkg"
