@@ -1,10 +1,8 @@
 #!/bin/bash
-
-#Setting reference to the current directory
-wpCurrDir=$PWD
+bootstrapDir=$PWD
+bootstrap=$bootstrapDir/wpBackupBootstrap.sh
 
 # Ensure script is running under root
-bootstrap=$webCurrDir/wpBackupBootstrap.sh
 if [ "$EUID" -ne 0 ]
 then
    sudo -n true 2/dev/null 2>&1
