@@ -42,8 +42,9 @@ cd $installDir
 # MAKE ALL SHELL SCRIPTS EXECUTABLE TO ROOT ONLY
 find . -name "*sh" -exec chmod 700 {} \;
 
-cd $installDir
-. ./setup.sh $* 2>&1| tee setup.log
+# Setup Project
+echo "BOOTSTRAP EXECUTING: ./setup.sh $* 2>&1| tee setup.log"
+./setup.sh $* 2>&1| tee setup.log
 
 cd $bootstrapDir
 
