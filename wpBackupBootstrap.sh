@@ -27,9 +27,9 @@ gitRepo="linux-scripts-apps-wp-backuprestore.git"
 installDir="/tmp/utils/$pkg"
 
 if [ -f ~/.ssh/gitHub.key ]; then
-   clone="git clone git@github.com:jasonantao/"
+   clone="git clone git@github.com:RMelanson/"
 else
-   clone="git clone https://github.com/jasonantao/"
+   clone="git clone https://github.com/RMelanson/"
 fi
 
 # Clone $pkg
