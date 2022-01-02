@@ -4,9 +4,9 @@ TODAY=`date '+%Y%m%d'`
 TEMP_DIR=/var/wpbackup
 
 BACKUP_NAME="wpbackup"
-DB_NAME="jason"
-DB_USER="jason"
-DB_PASS="jason"
+DB_NAME="admin"
+DB_USER="admin"
+DB_PASS="admin"
 SITE_PATH=/var/www/html/wordpress
 
 echo "Backup Now Entering Progress ........................."
@@ -21,5 +21,4 @@ tar -zcf $BACKUP_NAME-$TODAY.tar.gz -C $TEMP_DIR .
 
 #rm -Rf $TEMP_DIR
 
-echo "Thank you for using Jason Antao Backup Script Complete [$(du -sh $BACKUP_NAME-$TODAY.tar.gz | awk '{print $1}')]"
-
+echo "Thank you for using Robin Antao Backup Script Complete [$(du -sh $BACKUP_NAME-$TODAY.tar.gz | awk '{print $1}')]"
