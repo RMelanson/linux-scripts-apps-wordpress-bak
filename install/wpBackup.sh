@@ -21,4 +21,4 @@ tar -zcf $BACKUP_NAME-$TODAY.tar.gz -C $TEMP_DIR .
 
 #rm -Rf $TEMP_DIR
 
-echo "Thank you for using Robin Antao Backup Script Complete [$(du -sh $BACKUP_NAME-$TODAY.tar.gz | awk '{print $1}')]"
+echo "Thank you for using Robin Melanson's Backup Script Complete [$(du -sh $BACKUP_NAME-$TODAY.tar.gz | awk '{print $1}')]"
